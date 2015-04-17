@@ -14,7 +14,7 @@ public class CD extends PhysicalMedia
     private int yearReleased; //Year released
     private String recordLabel; //Record label (EMI, Polygram, Sony, Warner Music Group etc)
     private Duration totalDuration; //Total duration (sum of the duration of each track)
-    private ArrayList<Media> trackList; //Tracks (as an ArrayList where the index in the list corresponds to
+    //private ArrayList<AudioTrack> trackList; //Tracks (as an ArrayList where the index in the list corresponds to
     //the number of the track on the CD)
     private int archiveNumber; //Archive number
     
@@ -25,6 +25,7 @@ public class CD extends PhysicalMedia
     public CD()
     {
         cdMake(artistName, yearReleased, recordLabel, totalDuration);
+        
     }
 
     /**
@@ -37,7 +38,6 @@ public class CD extends PhysicalMedia
         this.artistName = artistName;
         this.yearReleased = yearReleased;
         this.recordLabel = recordLabel;
-        this.totalDuration = totalDuration;
-        trackList = getTrackList();                
-    }
+        this.totalDuration = totalDuration;             
+    }    
 }

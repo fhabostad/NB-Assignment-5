@@ -2,8 +2,13 @@
 /**
  * Write a description of class RadioGUI here.
  * 
+<<<<<<< HEAD
  * @author (your name) 
  * @version 1
+=======
+ * @author (TEST) 
+ * @version (a version number or a date)
+>>>>>>> origin/master
  */
 
 /**

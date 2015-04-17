@@ -33,7 +33,7 @@ public class Media
         this.title = title;
         this.duration = duration;
         //this.duration = duration;
-        media = new Media();
+        //media = new Media();
 
     }
     

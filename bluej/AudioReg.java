@@ -50,7 +50,7 @@ public class AudioReg
         String audioTrackList="";
         for(AudioTrack track : audioRegistry)
         {            
-             audioTrackList += track.getTrackTitle() + "/n";
+             audioTrackList += track.getTitle() + "/n";
          }
         return audioTrackList;
     }      
