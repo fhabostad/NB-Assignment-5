@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Advertiser()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Advertiser\n
+comment1.params=product\ investor
+comment1.target=void\ Advertise(java.lang.String,\ java.lang.String)
+comment1.text=\n\ \n
+numComments=2
