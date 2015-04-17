@@ -3,7 +3,7 @@
  * Write a description of class RadioGUI here.
  * 
  * @author (your name) 
- * @version (a version number or a date)
+ * @version 1
  */
 
 /**
