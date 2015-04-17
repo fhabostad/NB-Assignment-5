@@ -12,7 +12,7 @@ public class PhysicalMedia extends Media
     // instance variables - replace the example below with your own
     private int archiveNumber;
     private String title;
-    private ArrayList<Media> mediaTracks;
+    private ArrayList<AudioTrack> mediaTracks;
     /**
      * Constructor for objects of class Physical
      */
@@ -26,14 +26,14 @@ public class PhysicalMedia extends Media
      */
     public void makeTrackList()
     {
-        mediaTracks = new ArrayList<Media>();
+        mediaTracks = new ArrayList<AudioTrack>();
         this.title = super.getTitle();
     }
     
     /**
      * 
      */
-    public ArrayList<Media> getTrackList()
+    public ArrayList<AudioTrack> getTrackList()
     {
         return mediaTracks;
     }
@@ -44,7 +44,7 @@ public class PhysicalMedia extends Media
     public String listAllTracks()
     {
         String audioTrackList="";
-        for(Media track : mediaTracks)
+        for(AudioTrack track : mediaTracks)
         {            
             audioTrackList += track.getTitle() + "/n";
          }
@@ -65,5 +65,10 @@ public class PhysicalMedia extends Media
     public String getTitle()
     {
         return title;
+    }
+    
+    public void addTrack(AudioTrack track)
+    {
+        mediaTracks.add(track);
     }
 }

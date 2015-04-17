@@ -44,7 +44,7 @@ public class AudioTrack
     /**
      * 
      */
-    public String getTrackTitle()
+    public String getTitle()
     {
         return title;
     }

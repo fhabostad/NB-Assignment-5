@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 /**
  * Write a description of class AudioReg here.
- * Just a test!!
- * /Working
- * testest
+ * 
  * @author (your name) 
  * @version (a version number or a date)
  */
@@ -52,7 +50,7 @@ public class AudioReg
         String audioTrackList="";
         for(AudioTrack track : audioRegistry)
         {            
-             audioTrackList += track.getTrackTitle() + "/n";
+             audioTrackList += track.getTitle() + "/n";
          }
         return audioTrackList;
     }      

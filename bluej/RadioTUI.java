@@ -2,7 +2,7 @@
 /**
  * Write a description of class RadioGUI here.
  * 
- * @author (your name) 
+ * @author (TEST) 
  * @version (a version number or a date)
  */
 

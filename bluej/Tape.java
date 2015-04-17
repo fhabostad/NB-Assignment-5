@@ -9,7 +9,7 @@ public class Tape extends PhysicalMedia
 {
     private String title;//Title of the tape
     private String tapeType;//Type of tape (analog/digital)
-    private ArrayList<Media> trackList; //Tracks (as an ArrayList where the index in the list corresponds to
+    private ArrayList<AudioTrack> trackList; //Tracks (as an ArrayList where the index in the list corresponds to
     //the number of the track on the tape)
     private int archiveNumber;//Archive number
 

@@ -27,7 +27,7 @@ public class Music extends AudioTrack
     public void musicTrack(String artist)
     {
         this.duration = getTrackDuration();
-        this.title = getTrackTitle();
+        this.title = getTitle();
         this.reference = getTrackReference();
         this.artist = artist;
         timesPlayed = 0;

@@ -27,7 +27,7 @@ public class Advertiser extends AudioTrack
     public void Advertise(String product, String investor)
     {
         this.duration = getTrackDuration();
-        this.title = getTrackTitle();
+        this.title = getTitle();
         this.reference = getTrackReference();
         this.product = product;
         this.investor = investor;
